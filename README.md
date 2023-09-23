@@ -4,5 +4,7 @@ demo:
 
 <h2>https://redux-store-arek.netlify.app</h2>
 
-<img width="1394" alt="image" src="./src/assets/images/Store1.png">
-<img width="1394" alt="image" src="./src/assets/images/Store2.png">
+<div>
+<img width="600" alt="image" src="./src/assets/images/Store2.png">
+<img width="600" alt="image" src="./src/assets/images/Store1.png">
+</div>
