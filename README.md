@@ -2,4 +2,8 @@
 
 https://redux-store-arek.netlify.app
 
-<img width="1394" alt="Zrzut ekranu 2022-07-12 o 18 31 48" src="./src/assets/images/Store.png">
+desktop version:
+<img width="1394" alt="image" src="./src/assets/images/Store.png">
+<img width="1394" alt="image" src="./src/assets/images/Store1.png">
+<img width="1394" alt="image" src="./src/assets/images/Store2.png">
+<img width="1394" alt="image" src="./src/assets/images/Storemob.png">
