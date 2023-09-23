@@ -20,8 +20,8 @@ const Slider = () => {
                 key={item.id}
                 className={
                   parseInt(item.id) === slideIndex
-                    ? 'opacit-100 duration-500 ease-in-out'
-                    : 'opacity-10 duration-500 ease-in-out'
+                    ? 'duration-200 ease-in-out'
+                    : 'duration-200 ease-in-out'
                 }
               >
                 <div>
