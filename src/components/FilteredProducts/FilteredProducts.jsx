@@ -35,7 +35,7 @@ const FilteredProducts = () => {
     'gray',
   ];
   const sizes = ['S', 'M', 'L', 'XL', 'XXL'];
-  const sizes2 = ['36', '38', '40', '42', '44'];
+  const sizes2 = ['36', '38', '40', '42', '44', '46'];
   const genders = ['male', 'female'];
 
   return (
@@ -43,7 +43,6 @@ const FilteredProducts = () => {
       <div className='bg-white w-full sticky top-0'>
         <Navbar />
       </div>
-      {/* <NavigateButtons /> */}
       <div className='logo flex sm:gap-6 gap-1 p-2 w-full bg-black items-center sm:justify-around justify-center '>
         <div className='flex items-center justify-between gap-1 sm:gap-6'>
           <Menu>
