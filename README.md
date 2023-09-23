@@ -2,12 +2,12 @@
 user can:
 
 <ul>
-<li>* login</li>
-<li>* select product from list</li>
-<li>* sort product by price</li>
-<li>* filter product by gender, color, size</li>
-<li> * clear selected filters</li>
-<li> * add item to cart</li>
+<li>login</li>
+<li>select product from list</li>
+<li>sort product by price</li>
+<li>filter product by gender, color, size</li>
+<li>clear selected filters</li>
+<li>add item to cart</li>
 </ul>
 
 demo:
