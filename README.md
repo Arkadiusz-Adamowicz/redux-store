@@ -1,11 +1,14 @@
 <h2>E-commerce app based on redux-toolkit</h2>
 user can:
-  * login
-  * select product from list
-  * sort product by price
-  * filter product by gender, color, size
-  * clear selected filters
-  * add item to cart
+
+<ul>
+<li>* login</li>
+<li>* select product from list</li>
+<li>* sort product by price</li>
+<li>* filter product by gender, color, size</li>
+<li> * clear selected filters</li>
+<li> * add item to cart</li>
+</ul>
 
 demo:
 
@@ -15,3 +18,6 @@ demo:
 <img width="600" alt="image" src="./src/assets/images/Store3.png">
 <br>
 <img width="600" alt="image" src="./src/assets/images/Store2.png">
+<br>
+<img width="600" alt="image" src="./src/assets/images/Store4.png">
+<br>
