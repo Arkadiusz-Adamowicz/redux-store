@@ -6,5 +6,6 @@ demo:
 
 <div>
 <img width="600" alt="image" src="./src/assets/images/Store2.png">
+<hr />
 <img width="600" alt="image" src="./src/assets/images/Store1.png">
 </div>
