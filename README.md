@@ -19,5 +19,7 @@ demo:
 <br>
 <img width="600" alt="image" src="./src/assets/images/Store3.png">
 <br>
+<img width="600" alt="image" src="./src/assets/images/Store5.png">
+<br>
 <img width="600" alt="image" src="./src/assets/images/Store2.png">
 <br>
