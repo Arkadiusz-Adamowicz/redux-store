@@ -3,8 +3,8 @@ import ProductItem from './ProductItem';
 const Products = () => {
   return (
     <div>
-      <div className='mt-[620px]'>
-        <h2 className='text-white text-center text-lg logo bg-black p-2 w-[80%] mx-auto rounded-xl mb-4'>
+      <div className='mt-[600px]'>
+        <h2 className='text-white text-center text-lg logo bg-black p-2 w-full mx-auto mb-4'>
           SUMMER T-Shirt SALE 30%
         </h2>
       </div>
