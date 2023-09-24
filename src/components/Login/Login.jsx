@@ -48,7 +48,6 @@ const Login = () => {
             placeholder='Password'
             className='border border-gray-300 w-full mx-auto p-2 rounded-lg outline-none'
           />
-
           <div className='flex items-center gap-2'>
             <input type='checkbox' checked='true' />{' '}
             <p className='text-gray-400 text-sm'>Remember Me</p>

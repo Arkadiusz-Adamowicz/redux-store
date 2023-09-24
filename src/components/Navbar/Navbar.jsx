@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import Cart from '../Cart/Cart';
 import { logout } from '../../features/slices/authSlice';
@@ -10,6 +10,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const dispatch = useDispatch();
   const user = useSelector(state => state.user.user);
+  const navigate = useNavigate();
 
   return (
     <>
@@ -87,6 +88,7 @@ const Navbar = () => {
             onClick={() => {
               dispatch(logout(user));
               setIsLogin(is => !is);
+              navigate('/');
             }}
           >
             <div className='flex flex-row items-center cursor-pointer'>
