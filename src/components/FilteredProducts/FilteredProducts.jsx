@@ -41,15 +41,15 @@ const FilteredProducts = () => {
     <>
       <div className='bg-white w-full sticky top-0'>
         <Navbar />
-        <div className='logo flex sm:gap-6 gap-1 p-2 w-full bg-black items-center justify-around'>
-          <div className='flex items-center justify-between gap-1 sm:gap-6'>
+        <div className='logo flex sm:gap-6 gap-1 p-1 w-full bg-black items-center justify-around'>
+          <div className='flex overflow-x-auto items-center justify-between gap-2 p-1 sm:gap-6'>
             <Menu>
               <MenuHandler>
                 <button className='hover:bg-white text-white hover:text-black p-1 rounded uppercase text-md'>
                   Gender
                 </button>
               </MenuHandler>
-              <MenuList className='bg-black border-none rounded-t-none rounded-b-xl '>
+              <MenuList className='bg-black border-none rounded-t-none rounded-b-xl'>
                 {genders.map((item, index) => (
                   <MenuItem
                     key={index}
@@ -114,7 +114,7 @@ const FilteredProducts = () => {
                     {sizes2.map((item, index) => (
                       <MenuItem
                         key={index}
-                        className={`logo p-2 text-white hover:bg-white hover:text-black text-left`}
+                        className={`logo p-2 text-white hover:bg-white hover:text-black text-center`}
                         onClick={() => dispatch(filterBySize(item))}
                       >
                         {item}
