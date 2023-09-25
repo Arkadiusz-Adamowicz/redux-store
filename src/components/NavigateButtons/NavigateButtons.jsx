@@ -13,7 +13,7 @@ const NavigateButtons = () => {
     'Dresses',
     'Suits',
     'Shoes',
-    'T-Shirts',
+    'T.Shirts',
     'Jeans',
     'Jackets',
     'Bags',
@@ -24,8 +24,8 @@ const NavigateButtons = () => {
   return (
     <div className='flex flex-col'>
       <div
-        className='logo flex flex-wrap gap-4 p-3 w-full bg-black items-center justify-center  font-inter top-[50px]
-      overflow-x-auto sm:gap-6  
+        className='logo flex overflow-x-auto gap-4 p-3 bg-black items-center justify-center  font-inter top-[50px]
+       sm:gap-6 
       '
       >
         {types.map((type, index) => {

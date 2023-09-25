@@ -1,5 +1,4 @@
-import {sliderData} from '../../assets/data/data'
-import {useState} from 'react'
+import { sliderData } from '../../assets/data/data';
 import { Carousel } from '@material-tailwind/react';
 
 const Slider = () => {
@@ -7,7 +6,13 @@ const Slider = () => {
     <>
       <div className='absolute z-[0] w-full'>
         <Carousel transition={{ duration: 1 }} className='mx-auto h-[600px]'>
-          {sliderData.map(item => <img key={item.id}  src={item.img} className='h-full w-full object-cover'/>)}
+          {sliderData.map(item => (
+            <img
+              key={item.id}
+              src={item.img}
+              className='h-full w-full object-cover'
+            />
+          ))}
         </Carousel>
       </div>
     </>

@@ -67,22 +67,17 @@ import suit8 from '../images/suit8.jpg';
 
 export const sliderData = [
   {
-    id: '3',
-    img: jacket1,
-    text: 'Make your feet as comfortable as walking on the beach',
-  },
-  {
     id: '1',
-    img: shoe1,
-    text: 'Summers SALE up to 50% OFF what are you wating for',
-  },
-  {
-    id: '2',
     img: shirt1,
     text: 'AUTUMN is coming, choose what suits you THE BEST',
   },
   {
-    id: '0',
+    id: '2',
+    img: shoe1,
+    text: 'Summers SALE up to 50% OFF what are you wating for',
+  },
+  {
+    id: '3',
     img: jeans1,
     text: 'Choose between basketball and fashion or choose both',
   },

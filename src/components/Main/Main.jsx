@@ -9,8 +9,8 @@ const Main = () => {
     <>
       <div className='bg-white w-full sticky top-0 z-10'>
         <Navbar />
+        <NavigateButtons />
       </div>
-      <NavigateButtons />
       <Slider />
       <Products />
       <Footer />
