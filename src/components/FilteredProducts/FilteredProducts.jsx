@@ -41,7 +41,7 @@ const FilteredProducts = () => {
     <>
       <div className='bg-white w-full sticky top-0'>
         <Navbar />
-        <div className='logo flex sm:gap-6 gap-1 p-2 w-full bg-black items-center sm:justify-around justify-center '>
+        <div className='logo flex sm:gap-6 gap-1 p-2 w-full bg-black items-center justify-around'>
           <div className='flex items-center justify-between gap-1 sm:gap-6'>
             <Menu>
               <MenuHandler>
@@ -49,11 +49,11 @@ const FilteredProducts = () => {
                   Gender
                 </button>
               </MenuHandler>
-              <MenuList className='bg-black border-none rounded-t-none rounded-b-xl'>
+              <MenuList className='bg-black border-none rounded-t-none rounded-b-xl '>
                 {genders.map((item, index) => (
                   <MenuItem
                     key={index}
-                    className={`logo p-2 text-white hover:bg-white hover:text-black text-left`}
+                    className={`logo text-white hover:bg-white hover:text-black text-center`}
                     onClick={() => dispatch(filterByGender(item))}
                   >
                     {item}
@@ -81,7 +81,7 @@ const FilteredProducts = () => {
                 {colors.map((item, index) => (
                   <MenuItem
                     key={index}
-                    className={`logo p-2 text-white hover:bg-white hover:text-black text-left`}
+                    className={`logo p-2 text-white hover:bg-white hover:text-black text-center`}
                     onClick={() => dispatch(filterByColor(item))}
                   >
                     {item}
@@ -102,7 +102,7 @@ const FilteredProducts = () => {
                     {sizes.map((item, index) => (
                       <MenuItem
                         key={index}
-                        className={`logo p-2 text-white hover:bg-white hover:text-black text-left`}
+                        className={`logo p-2 text-white hover:bg-white hover:text-black text-center`}
                         onClick={() => dispatch(filterBySize(item))}
                       >
                         {item}

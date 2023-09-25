@@ -22,12 +22,8 @@ const NavigateButtons = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className='flex flex-col'>
-      <div
-        className='logo flex overflow-x-auto gap-4 p-3 bg-black items-center justify-center  font-inter top-[50px]
-       sm:gap-6 
-      '
-      >
+    <div className='logo flex sm:gap-6 gap-1 p-2 w-full bg-black items-center justify-around'>
+      <div className='flex overflow-x-auto items-center justify-between gap-2 p-1 sm:gap-6'>
         {types.map((type, index) => {
           return (
             <div key={index}>
