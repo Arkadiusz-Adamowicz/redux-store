@@ -43,21 +43,24 @@ const FilteredProducts = () => {
         <Navbar />
         <div className='logo flex sm:gap-6 gap-1 p-1 w-full bg-black items-center justify-around'>
           <div className='flex overflow-x-auto items-center justify-between gap-2 p-1 sm:gap-6'>
-            <Menu>
-              <MenuHandler>
+          
+            <Menu style={{width: '10px'}}>
+              <MenuHandler >
                 <button className='hover:bg-white text-white hover:text-black p-1 rounded uppercase text-md'>
                   Gender
                 </button>
               </MenuHandler>
-              <MenuList className='bg-black border-none rounded-t-none rounded-b-xl'>
+              <MenuList className='min-w-fit bg-black border-none rounded-t-none rounded-b-xl'>
                 {genders.map((item, index) => (
-                  <MenuItem
+                  
+                  <MenuItem 
                     key={index}
-                    className={`logo text-white hover:bg-white hover:text-black text-center`}
+                    className={`logo text-white hover:bg-white hover:text-black text-center `}
                     onClick={() => dispatch(filterByGender(item))}
                   >
                     {item}
                   </MenuItem>
+                  
                 ))}
               </MenuList>
             </Menu>
@@ -77,7 +80,7 @@ const FilteredProducts = () => {
                   Color
                 </button>
               </MenuHandler>
-              <MenuList className='bg-black border-none rounded-t-none rounded-b-xl'>
+              <MenuList className='min-w-fit bg-black border-none rounded-t-none rounded-b-xl'>
                 {colors.map((item, index) => (
                   <MenuItem
                     key={index}
@@ -98,7 +101,7 @@ const FilteredProducts = () => {
                   </button>
                 </MenuHandler>
                 {type !== 'Shoes' ? (
-                  <MenuList className='bg-black border-none rounded-t-none rounded-b-xl'>
+                  <MenuList className='min-w-fit bg-black border-none rounded-t-none rounded-b-xl'>
                     {sizes.map((item, index) => (
                       <MenuItem
                         key={index}
@@ -110,7 +113,7 @@ const FilteredProducts = () => {
                     ))}
                   </MenuList>
                 ) : (
-                  <MenuList className='bg-black border-none rounded-t-none rounded-b-xl'>
+                  <MenuList className='min-w-fit bg-black border-none rounded-t-none rounded-b-xl'>
                     {sizes2.map((item, index) => (
                       <MenuItem
                         key={index}
