@@ -10,7 +10,7 @@ const Products = () => {
       </div>
       <div className='flex flex-wrap gap-4 items-center justify-center m-4 max-w-[1200px] mx-auto'>
         {storeData
-          .filter(product => product.type === 'T-Shirts')
+          .filter(product => product.type === 'T.Shirts')
           .map((product, index) => (
             <ProductItem key={index} product={product} />
           ))}
