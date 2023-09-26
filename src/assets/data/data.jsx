@@ -92,7 +92,7 @@ export const storeData = [
   {
     id: '1',
     img: shirt1,
-    name: 'Casual T-Shirt 1',
+    name: 'T-Shirt 1',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'T-Shirts',
     size: ['XL', 'L', 'M', 'S'],
@@ -103,7 +103,7 @@ export const storeData = [
   {
     id: '2',
     img: shirt2,
-    name: 'Casual T-Shrit 2',
+    name: 'T-Shrit 2',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'T-Shirts',
     size: ['M', 'L', 'XL', 'XXL'],
@@ -114,7 +114,7 @@ export const storeData = [
   {
     id: '3',
     img: shirt3,
-    name: 'Casual T-Shrit 3',
+    name: 'T-Shrit 3',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'T-Shirts',
     size: ['L', 'XL'],
@@ -125,7 +125,7 @@ export const storeData = [
   {
     id: '4',
     img: shirt4,
-    name: 'Casual T-Shrit 4',
+    name: 'T-Shrit 4',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'T-Shirts',
     size: ['M', 'L', 'XL'],
@@ -136,7 +136,7 @@ export const storeData = [
   {
     id: '5',
     img: shirt5,
-    name: 'Casual T-Shrit 5',
+    name: 'T-Shrit 5',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'T-Shirts',
     size: ['M', 'L', 'XL'],
@@ -147,7 +147,7 @@ export const storeData = [
   {
     id: '6',
     img: shirt6,
-    name: 'Casual T-Shrit 6',
+    name: 'T-Shrit 6',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'T-Shirts',
     size: ['M', 'L', 'XL'],
@@ -158,7 +158,7 @@ export const storeData = [
   {
     id: '7',
     img: shirt7,
-    name: 'Casual T-Shrit 7',
+    name: 'T-Shrit 7',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'T-Shirts',
     size: ['M', 'L', 'XL', 'XXL'],
@@ -169,7 +169,7 @@ export const storeData = [
   {
     id: '8',
     img: shirt8,
-    name: 'Casual T-Shrit 8',
+    name: 'T-Shrit 8',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'T-Shirts',
     size: ['M', 'XL'],
@@ -181,7 +181,7 @@ export const storeData = [
   {
     id: '9',
     img: hoodie1,
-    name: 'Casual Hoodie 1',
+    name: 'Hoodie 1',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Hoodies',
     size: ['S', 'L', 'XL'],
@@ -192,7 +192,7 @@ export const storeData = [
   {
     id: '10',
     img: hoodie2,
-    name: 'Casual Hoodie 2',
+    name: 'Hoodie 2',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Hoodies',
     size: ['S', 'L', 'XL'],
@@ -203,7 +203,7 @@ export const storeData = [
   {
     id: '11',
     img: hoodie3,
-    name: 'Casual Hoodie 3',
+    name: 'Hoodie 3',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Hoodies',
     size: ['S', 'M', 'XL'],
@@ -214,7 +214,7 @@ export const storeData = [
   {
     id: '12',
     img: hoodie4,
-    name: 'Casual Hoodie 4',
+    name: 'Hoodie 4',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Hoodies',
     size: ['S', 'XL'],
@@ -225,7 +225,7 @@ export const storeData = [
   {
     id: '13',
     img: hoodie5,
-    name: 'Casual Hoodie 5',
+    name: 'Hoodie 5',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Hoodies',
     size: ['S', 'XL'],
@@ -236,7 +236,7 @@ export const storeData = [
   {
     id: '14',
     img: hoodie6,
-    name: 'Casual Hoodie 6',
+    name: 'Hoodie 6',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Hoodies',
     size: ['S', 'XL'],
@@ -247,7 +247,7 @@ export const storeData = [
   {
     id: '15',
     img: hoodie7,
-    name: 'Casual Hoodie 7',
+    name: 'Hoodie 7',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Hoodies',
     size: ['S', 'M', 'L', 'XL'],
@@ -258,7 +258,7 @@ export const storeData = [
   {
     id: '16',
     img: hoodie8,
-    name: 'Casual Hoodie 8',
+    name: 'Hoodie 8',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Hoodies',
     size: ['S', 'M', 'L', 'XL'],
@@ -270,7 +270,7 @@ export const storeData = [
   {
     id: '17',
     img: shoe5,
-    name: 'Casual Shoes 1',
+    name: 'Shoes 1',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Shoes',
     size: ['38', '40', '42', '44', '46'],
@@ -281,7 +281,7 @@ export const storeData = [
   {
     id: '18',
     img: shoe6,
-    name: 'Casual Shoes 2',
+    name: 'Shoes 2',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Shoes',
     size: ['40', '42', '44', '46'],
@@ -292,7 +292,7 @@ export const storeData = [
   {
     id: '19',
     img: shoe7,
-    name: 'Casual Shoes 3',
+    name: 'Shoes 3',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Shoes',
     size: ['36', '38', '40', '42'],
@@ -303,7 +303,7 @@ export const storeData = [
   {
     id: '20',
     img: shoe8,
-    name: 'Casual Shoes 4',
+    name: 'Shoes 4',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Shoes',
     size: ['36', '38', '40', '42'],
@@ -314,7 +314,7 @@ export const storeData = [
   {
     id: '21',
     img: shoe9,
-    name: 'Casual Shoes 5',
+    name: 'Shoes 5',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Shoes',
     size: ['36', '38', '40', '42'],
@@ -325,7 +325,7 @@ export const storeData = [
   {
     id: '22',
     img: shoe10,
-    name: 'Casual Shoes 6',
+    name: 'Shoes 6',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Shoes',
     size: ['36', '38', '40', '42'],
@@ -336,7 +336,7 @@ export const storeData = [
   {
     id: '23',
     img: shoe11,
-    name: 'Casual Shoes 7',
+    name: 'Shoes 7',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Shoes',
     size: ['36', '38', '40', '42'],
@@ -347,7 +347,7 @@ export const storeData = [
   {
     id: '24',
     img: shoe12,
-    name: 'Casual Shoes 8',
+    name: 'Shoes 8',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Shoes',
     size: ['36', '38', '40', '42'],
@@ -358,7 +358,7 @@ export const storeData = [
   {
     id: '25',
     img: dress1,
-    name: 'Casual Dress 1',
+    name: 'Dress 1',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Dresses',
     size: ['L', 'XL'],
@@ -369,7 +369,7 @@ export const storeData = [
   {
     id: '26',
     img: dress2,
-    name: 'Casual Dress 2',
+    name: 'Dress 2',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Dresses',
     size: ['S', 'M', 'XL'],
@@ -380,7 +380,7 @@ export const storeData = [
   {
     id: '27',
     img: dress3,
-    name: 'Casual Dress 3',
+    name: 'Dress 3',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Dresses',
     size: ['S', 'M', 'XL'],
@@ -391,7 +391,7 @@ export const storeData = [
   {
     id: '28',
     img: dress4,
-    name: 'Casual Dress 4',
+    name: 'Dress 4',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Dresses',
     size: ['S', 'L', 'XL'],
@@ -402,7 +402,7 @@ export const storeData = [
   {
     id: '29',
     img: dress5,
-    name: 'Casual Dress 5',
+    name: 'Dress 5',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Dresses',
     size: ['S', 'L', 'XL'],
@@ -413,7 +413,7 @@ export const storeData = [
   {
     id: '30',
     img: dress6,
-    name: 'Casual Dress 6',
+    name: 'Dress 6',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Dresses',
     size: ['S', 'M'],
@@ -424,7 +424,7 @@ export const storeData = [
   {
     id: '31',
     img: dress7,
-    name: 'Casual Dress 7',
+    name: 'Dress 7',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Dresses',
     size: ['S', 'M'],
@@ -435,7 +435,7 @@ export const storeData = [
   {
     id: '32',
     img: dress8,
-    name: 'Casual Dress 8',
+    name: 'Dress 8',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Dresses',
     size: ['M', 'L'],
@@ -446,7 +446,7 @@ export const storeData = [
   {
     id: '33',
     img: jeans1,
-    name: 'Casual Jeans 1',
+    name: 'Jeans 1',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jeans',
     size: ['S', 'M', 'L'],
@@ -457,7 +457,7 @@ export const storeData = [
   {
     id: '34',
     img: jeans2,
-    name: 'Casual Jeans 2',
+    name: 'Jeans 2',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jeans',
     size: ['S', 'M'],
@@ -468,7 +468,7 @@ export const storeData = [
   {
     id: '35',
     img: jeans3,
-    name: 'Casual Jeans 3',
+    name: 'Jeans 3',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jeans',
     size: ['M', 'L', 'XL'],
@@ -479,7 +479,7 @@ export const storeData = [
   {
     id: '36',
     img: jeans4,
-    name: 'Casual Jeans 4',
+    name: 'Jeans 4',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jeans',
     size: ['M', 'L', 'XL'],
@@ -490,7 +490,7 @@ export const storeData = [
   {
     id: '37',
     img: jeans5,
-    name: 'Casual Jeans 5',
+    name: 'Jeans 5',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jeans',
     size: ['M', 'L', 'XL'],
@@ -501,7 +501,7 @@ export const storeData = [
   {
     id: '37',
     img: jeans6,
-    name: 'Casual Jeans 6',
+    name: 'Jeans 6',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jeans',
     size: ['S', 'L', 'XL'],
@@ -512,7 +512,7 @@ export const storeData = [
   {
     id: '38',
     img: jeans7,
-    name: 'Casual Jeans 7',
+    name: 'Jeans 7',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jeans',
     size: ['M', 'L', 'XL'],
@@ -523,7 +523,7 @@ export const storeData = [
   {
     id: '39',
     img: jeans8,
-    name: 'Casual Jeans 8',
+    name: 'Jeans 8',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jeans',
     size: ['M', 'L', 'XL'],
@@ -534,7 +534,7 @@ export const storeData = [
   {
     id: '40',
     img: jacket1,
-    name: 'Casual Jacket 1',
+    name: 'Jacket 1',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jackets',
     size: ['M', 'L', 'XL'],
@@ -545,7 +545,7 @@ export const storeData = [
   {
     id: '41',
     img: jacket2,
-    name: 'Casual Jacket 2',
+    name: 'Jacket 2',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jackets',
     size: ['S', 'L', 'XL'],
@@ -556,7 +556,7 @@ export const storeData = [
   {
     id: '42',
     img: jacket3,
-    name: 'Casual Jacket 3',
+    name: 'Jacket 3',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jackets',
     size: ['S', 'M'],
@@ -567,7 +567,7 @@ export const storeData = [
   {
     id: '43',
     img: jacket4,
-    name: 'Casual Jacket 4',
+    name: 'Jacket 4',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jackets',
     size: ['S', 'M', 'L'],
@@ -578,7 +578,7 @@ export const storeData = [
   {
     id: '44',
     img: jacket5,
-    name: 'Casual Jacket 5',
+    name: 'Jacket 5',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jackets',
     size: ['S', 'M', 'L'],
@@ -589,7 +589,7 @@ export const storeData = [
   {
     id: '45',
     img: jacket6,
-    name: 'Casual Jacket 6',
+    name: 'Jacket 6',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jackets',
     size: ['S', 'M', 'XL'],
@@ -600,7 +600,7 @@ export const storeData = [
   {
     id: '46',
     img: jacket7,
-    name: 'Casual Jacket 7',
+    name: 'Jacket 7',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jackets',
     size: ['S', 'M', 'XL'],
@@ -611,7 +611,7 @@ export const storeData = [
   {
     id: '47',
     img: jacket8,
-    name: 'Casual Jacket 8',
+    name: 'Jacket 8',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Jackets',
     size: ['M', 'L', 'XL'],
@@ -622,7 +622,7 @@ export const storeData = [
   {
     id: '48',
     img: bag1,
-    name: 'Casual Bag 1',
+    name: 'Bag 1',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Bags',
     color: ['black', 'blue', 'red'],
@@ -632,7 +632,7 @@ export const storeData = [
   {
     id: '49',
     img: bag2,
-    name: 'Casual Bag 2',
+    name: 'Bag 2',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Bags',
     color: ['green', 'red', 'blue'],
@@ -642,7 +642,7 @@ export const storeData = [
   {
     id: '50',
     img: bag3,
-    name: 'Casual Bag 3',
+    name: 'Bag 3',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Bags',
     color: ['brown', 'blue', 'orange'],
@@ -652,7 +652,7 @@ export const storeData = [
   {
     id: '51',
     img: bag4,
-    name: 'Casual Bag 4',
+    name: 'Bag 4',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Bags',
     color: ['brown', 'blue', 'orange'],
@@ -662,7 +662,7 @@ export const storeData = [
   {
     id: '52',
     img: bag5,
-    name: 'Casual Bag 5',
+    name: 'Bag 5',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Bags',
     color: ['yellow', 'blue', 'black'],
@@ -672,7 +672,7 @@ export const storeData = [
   {
     id: '53',
     img: bag6,
-    name: 'Casual Bag 6',
+    name: 'Bag 6',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Bags',
     color: ['blue', 'black', 'orange'],
@@ -682,7 +682,7 @@ export const storeData = [
   {
     id: '54',
     img: bag7,
-    name: 'Casual Bag 7',
+    name: 'Bag 7',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Bags',
     color: ['blue', 'black', 'orange'],
@@ -692,7 +692,7 @@ export const storeData = [
   {
     id: '55',
     img: bag8,
-    name: 'Casual Bag 8',
+    name: 'Bag 8',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Bags',
     color: ['blue', 'green', 'red'],
@@ -702,7 +702,7 @@ export const storeData = [
   {
     id: '56',
     img: suit1,
-    name: 'Casual Suit 1',
+    name: 'Suit 1',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Suits',
     size: ['S', 'M', 'L'],
@@ -713,7 +713,7 @@ export const storeData = [
   {
     id: '57',
     img: suit2,
-    name: 'Casual Suit 2',
+    name: 'Suit 2',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Suits',
     size: ['S', 'M', 'L'],
@@ -724,7 +724,7 @@ export const storeData = [
   {
     id: '58',
     img: suit3,
-    name: 'Casual Suit 3',
+    name: 'Suit 3',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Suits',
     size: ['M', 'L', 'XL'],
@@ -735,7 +735,7 @@ export const storeData = [
   {
     id: '59',
     img: suit4,
-    name: 'Casual Suit 4',
+    name: 'Suit 4',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Suits',
     size: ['L', 'XL'],
@@ -746,7 +746,7 @@ export const storeData = [
   {
     id: '60',
     img: suit5,
-    name: 'Casual Suit 5',
+    name: 'Suit 5',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Suits',
     size: ['L', 'XL'],
@@ -757,7 +757,7 @@ export const storeData = [
   {
     id: '61',
     img: suit6,
-    name: 'Casual Suit 6',
+    name: 'Suit 6',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Suits',
     size: ['S', 'M'],
@@ -768,7 +768,7 @@ export const storeData = [
   {
     id: '62',
     img: suit7,
-    name: 'Casual Suit 7',
+    name: 'Suit 7',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Suits',
     size: ['L', 'XL'],
@@ -779,7 +779,7 @@ export const storeData = [
   {
     id: '63',
     img: suit8,
-    name: 'Casual Suit 8',
+    name: 'Suit 8',
     text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe porro reiciendis aliquam impedit, eius aliquid.',
     type: 'Suits',
     size: ['S', 'M', 'XL'],
