@@ -50,7 +50,7 @@ const Login = () => {
           />
           <div className='flex items-center gap-2'>
             <input type='checkbox' checked='true' />{' '}
-            <p className='text-gray-400 text-sm'>Remember Me</p>
+            <p className='text-gray-900 text-sm'>Remember Me</p>
           </div>
           <button
             onClick={() => {
@@ -60,8 +60,8 @@ const Login = () => {
           >
             SIGN IN
           </button>
-          <p className='text-center text-sm text-gray-400'>
-            Don`t have account? <span className='text-black'>Sign up</span>
+          <p className='text-center text-sm text-gray-900'>
+            Don`t have account? <span className='font-semibold'>Sign up</span>
           </p>
         </div>
       </div>
