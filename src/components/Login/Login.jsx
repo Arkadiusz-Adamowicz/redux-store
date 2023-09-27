@@ -28,7 +28,7 @@ const Login = () => {
         className='logo flex mx-auto overflow-auto  flex-col bg-white  rounded-xl
         max-w-[300px] mt-[80px] border m-6 border-gray-300 '
       >
-        <div className='h-[100px] rounded-xl flex justify-center items-center bg-black text-2xl text-white m-3'>
+        <div className='h-[100px] rounded-xl flex justify-center items-center bg-black text-2xl text-white m-3 '>
           <p>Sign In</p>
         </div>
         <div className='flex flex-col gap-3 m-3'>

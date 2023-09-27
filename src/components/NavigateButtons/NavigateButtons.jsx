@@ -22,7 +22,7 @@ const NavigateButtons = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className='logo flex p-2 w-full bg-black items-center justify-center'>
+    <div className='logo  flex p-2 w-full bg-black items-center justify-center'>
       <div className='flex overflow-x-auto items-center justify-between gap-3  p-1 sm:gap-6'>
         {types.map((type, index) => {
           return (
@@ -39,7 +39,7 @@ const NavigateButtons = () => {
                   dispatch(filterProducts(type));
                 }}
               >
-                {type.toUpperCase()}
+                {type}
               </Link>
             </div>
           );

@@ -41,33 +41,30 @@ const FilteredProducts = () => {
     <>
       <div className='bg-white w-full sticky top-0'>
         <Navbar />
-        <div className='logo flex sm:gap-6 gap-1 p-1 w-full bg-black items-center justify-around'>
+        <div className='logo flex sm:gap-8 gap-1 p-1 w-full bg-black items-center sm:justify-around justify-between'>
           <div className='flex overflow-x-auto items-center justify-between gap-2 p-1 sm:gap-6'>
-          
-            <Menu style={{width: '10px'}}>
-              <MenuHandler >
-                <button className='hover:bg-white text-white hover:text-black p-1 rounded uppercase text-md'>
+            <Menu style={{ width: '10px' }}>
+              <MenuHandler>
+                <button className='hover:bg-white text-white hover:text-black p-1 rounded  text-md'>
                   Gender
                 </button>
               </MenuHandler>
               <MenuList className='min-w-fit bg-black border-none rounded-t-none rounded-b-xl'>
                 {genders.map((item, index) => (
-                  
-                  <MenuItem 
+                  <MenuItem
                     key={index}
                     className={`logo text-white hover:bg-white hover:text-black text-center `}
                     onClick={() => dispatch(filterByGender(item))}
                   >
                     {item}
                   </MenuItem>
-                  
                 ))}
               </MenuList>
             </Menu>
 
             <Menu>
               <button
-                className='hover:bg-white text-white hover:text-black p-1 rounded uppercase text-md'
+                className='hover:bg-white text-white hover:text-black p-1 rounded text-md'
                 onClick={() => dispatch(sortByPrice())}
               >
                 Price
@@ -76,7 +73,7 @@ const FilteredProducts = () => {
 
             <Menu>
               <MenuHandler>
-                <button className='hover:bg-white text-white hover:text-black p-1 rounded uppercase text-md'>
+                <button className='hover:bg-white text-white hover:text-black p-1 rounded text-md'>
                   Color
                 </button>
               </MenuHandler>
@@ -96,7 +93,7 @@ const FilteredProducts = () => {
             {type !== 'Bags' && (
               <Menu>
                 <MenuHandler>
-                  <button className='hover:bg-white text-white hover:text-black p-1 rounded uppercase text-md'>
+                  <button className='hover:bg-white text-white hover:text-black p-1 rounded text-md'>
                     Size
                   </button>
                 </MenuHandler>
@@ -129,8 +126,8 @@ const FilteredProducts = () => {
             )}
           </div>
           <div onClick={() => dispatch(filterProducts(type))}>
-            <p className='hover:bg-white text-white hover:text-black p-1 rounded uppercase text-md cursor-pointer'>
-              CLEAR
+            <p className='hover:bg-white text-white hover:text-black p-1 rounded text-md cursor-pointer'>
+              Clear
             </p>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='logo bg-black w-full text-center text-white p-1'>
+      <div className='logo  bg-black w-full text-center text-white p-1'>
         <p className='text-md'>
           Welcome{' '}
           <span>
@@ -27,12 +27,12 @@ const Navbar = () => {
       '
       >
         <Link to='/'>
-          <p className='logo text-2xl sm:text-4xl  tracking-normal leading-none text-center p-2'>
+          <p className='logo font-bold text-2xl sm:text-4xl  tracking-normal leading-none text-center p-2'>
             store4you
           </p>
         </Link>
 
-        <div className='flex flex-row items-center gap-4 sm:gap-2 mr-2'>
+        <div className='flex flex-row items-center gap-4 sm:gap-2 mr-2 '>
           <div className='flex flex-row items-center cursor-pointer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'

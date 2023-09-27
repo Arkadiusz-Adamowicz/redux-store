@@ -20,12 +20,14 @@ const ProductCard = ({ product: { id, name, img, price, text, color } }) => {
         />
       </div>
 
-      <p className='py-2 text-center text-md logo text-gray-800'>{name}</p>
+      <p className='py-2 text-center text-md logo font-semibold text-gray-800'>
+        {name}
+      </p>
       <p className='text-sm logo break-all text-gray-500 pb-2'>{text}</p>
       <hr />
       <div className='flex items-center justify-between text-xs text-gray-500 mt-2'>
-      <span className='logo rounded text-black text-lg flex gap-1 items-center'>
-          {price} <span className='text-gray-500 text-sm'>$</span>
+        <span className='logo font-semibold rounded text-black text-[16px] flex gap-1 items-center'>
+          {price} $
         </span>
         <div value={color.name} className='outline-none flex'>
           {color.map((c, index) => (

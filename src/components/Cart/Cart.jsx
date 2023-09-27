@@ -11,7 +11,7 @@ const Cart = ({ open, setOpen }) => {
     <div className='w-full fixed z-[1] top-0 left-0 right-0 bottom-0 transition-all duration-100 bg-black bg-opacity-90 z-100'>
       <div className='flex overflow-auto max-h-[500px] flex-col s mt-[15%] sm:mt-[5%] bg-white  rounded-xl max-w-[350px] sm:max-w-[600px] mx-auto'>
         <div className='flex sticky top-0 bg-white items-center justify-between px-3 py-2'>
-          <p className='text-2xl logo'>Cart </p>
+          <p className='text-2xl font-semibold logo'>Cart </p>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
@@ -44,8 +44,10 @@ const Cart = ({ open, setOpen }) => {
                     />
                     <div className='flex justify-between w-full logo'>
                       <div>
-                        <p className='logo text-lg'>{cart.name}</p>
-                        <div className='text-gray-500'>
+                        <p className='logo text-md font-semibold'>
+                          {cart.name}
+                        </p>
+                        <div className='text-gray-800'>
                           <p className='flex items-center'>
                             color:
                             <span
@@ -83,7 +85,7 @@ const Cart = ({ open, setOpen }) => {
               ))}
             </div>
           ) : (
-            <div className='logo p-3 text-gray-500'>
+            <div className='logo p-3 text-gray-800'>
               <p>No items in cart</p>
             </div>
           )}
@@ -95,10 +97,14 @@ const Cart = ({ open, setOpen }) => {
             }
           >
             <p>
-              total items: <span className='logo text-xl'>{totalAmount}</span>
+              total items:{' '}
+              <span className='logo text-lg font-semibold '>{totalAmount}</span>
             </p>
             <p>
-              total price: <span className='logo text-xl'>{totalPrice} $</span>
+              total price:{' '}
+              <span className='logo text-lg font-semibold '>
+                {totalPrice} $
+              </span>
             </p>
           </div>
         )}

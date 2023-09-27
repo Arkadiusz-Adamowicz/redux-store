@@ -22,7 +22,7 @@ const SingleProduct = () => {
         {product
           .filter(product => product.id === id)
           .map((item, index) => (
-            <div key={index} className='block sm:flex gap-6'>
+            <div key={index} className='sm:flex block gap-6'>
               <img
                 src={item.img}
                 className='shadow-md shadow-gray-300 rounded-xl h-[500px] border border-gray-300'
@@ -31,16 +31,21 @@ const SingleProduct = () => {
 
               <div className='flex flex-col justify-between'>
                 <div className='flex flex-col'>
-                  <p className='text-2xl font-inter logo mt-3 sm:mt-0'>
-                    {item.name}
-                  </p>
-                  <p className='text-orange-500 text-lg rounded logo pb-4'>
-                    20% OFF
-                  </p>
-
-                  <p className='pb-4 logo font-inter break-normal text-gray-600'>
-                    <span className='text-2xl '>{item.price}$</span>
-                  </p>
+                  <div className='sm:flex justify-between'>
+                    <div>
+                      <p className='text-2xl font-inter font-semibold logo mt-3 sm:mt-0'>
+                        {item.name}
+                      </p>
+                      <p className='text-orange-500 text-lg font-semibold rounded logo pb-4'>
+                        20% OFF
+                      </p>
+                    </div>
+                    <div>
+                      <p className='pb-4 logo font-semibold font-inter break-normal'>
+                        <span className='text-2xl '>{item.price} $</span>
+                      </p>
+                    </div>
+                  </div>
 
                   <p className='pb-4 logo font-inter break-normal text-gray-600'>
                     {item.text}
@@ -101,7 +106,7 @@ const SingleProduct = () => {
                  w-full'
                 >
                   <button
-                    className='border bg-black  text-white rounded-lg px-4 py-2 mt-5 transition-all duration-200 logo w-full sm:w-fit'
+                    className='border bg-black text-white rounded-lg px-4 py-2 mt-5 transition-all duration-200 logo w-full sm:w-fit'
                     onClick={() =>
                       dispatch(
                         addToCart({
