@@ -27,7 +27,7 @@ const Navbar = () => {
       '
       >
         <Link to='/'>
-          <p className='logo font-bold text-2xl sm:text-4xl  tracking-normal leading-none text-center p-2'>
+          <p className='title font-bold text-2xl sm:text-4xl  tracking-normal leading-none text-center p-2'>
             store4you
           </p>
         </Link>

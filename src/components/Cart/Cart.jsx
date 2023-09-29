@@ -44,9 +44,7 @@ const Cart = ({ open, setOpen }) => {
                     />
                     <div className='flex justify-between w-full logo'>
                       <div>
-                        <p className='logo text-md font-semibold'>
-                          {cart.name}
-                        </p>
+                        <p className='title text-md '>{cart.name}</p>
                         <div className='text-gray-800'>
                           <p className='flex items-center'>
                             color:
