@@ -61,7 +61,7 @@ const Login = () => {
             SIGN IN
           </button>
           <p className='text-center text-sm text-gray-900'>
-            Don`t have account? <span className='font-semibold'>Sign up</span>
+            Don`t have account? <span className='font-bold'>Sign up</span>
           </p>
         </div>
       </div>
