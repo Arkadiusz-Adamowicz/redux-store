@@ -22,8 +22,8 @@ const NavigateButtons = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className='logo  flex p-2 w-full bg-black items-center justify-center'>
-      <div className='flex overflow-x-auto items-center justify-between gap-3  p-1 sm:gap-6'>
+    <div className='logo flex p-2 w-full bg-black items-center justify-around'>
+      <div className='flex overflow-x-auto items-center gap-3 md:gap-6  p-1 '>
         {types.map((type, index) => {
           return (
             <div key={index}>
@@ -32,7 +32,7 @@ const NavigateButtons = () => {
                 className={
                   isSelect === index
                     ? 'bg-white text-black p-1.5 rounded'
-                    : 'bg-black text-white p-1.5  hover:bg-white hover:text-black  hover:rounded'
+                    : 'bg-black text-white hover:rounded hover:bg-white hover:text-black p-1.5'
                 }
                 onClick={() => {
                   handleClick(index);
